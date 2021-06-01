@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+Floating_Point instance_name (
+    .integer_num(integer_num), 
+    .mantissa_num(mantissa_num), 
+    .equality(equality), 
+    .balance(balance), 
+    .out(out)
+    );
+
+

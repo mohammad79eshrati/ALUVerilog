@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+Add instance_name (
+    .number1(number1), 
+    .number2(number2), 
+    .balance(balance), 
+    .output_result(output_result), 
+    .clk(clk)
+    );
+
+

@@ -1,0 +1,7 @@
+verilog work "XOR.v"
+verilog work "Sub.v"
+verilog work "One_Bit_count.v"
+verilog work "Mul.v"
+verilog work "Bigger_Number.v"
+verilog work "Add.v"
+verilog work "logic_calculation.v"

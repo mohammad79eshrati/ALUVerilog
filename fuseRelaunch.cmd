@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/verilog/ALU/LogicCalculation_floatingPoint/newtest_isim_beh.exe" -prj "D:/verilog/ALU/LogicCalculation_floatingPoint/newtest_beh.prj" "work.newtest" "work.glbl" 

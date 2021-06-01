@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj LogicCalculation_floatingPoint -o D:/verilog/LogicCalculation_floatingPoint/One_Bit_count.tfi -lib work D:/verilog/LogicCalculation_floatingPoint//One_Bit_count.v -module One_Bit_count -template E:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj LogicCalculation_floatingPoint -o D:/verilog/ALU/LogicCalculation_floatingPoint/One_Bit_count.tfi -lib work D:/verilog/ALU/LogicCalculation_floatingPoint//One_Bit_count.v -module One_Bit_count -template E:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\verilog\ALU\LogicCalculation_floatingPoint\Add.v" Line 43: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\verilog\ALU\LogicCalculation_floatingPoint\Sub.v" Line 40: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\verilog\ALU\LogicCalculation_floatingPoint\Mul.v" Line 40: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\verilog\ALU\LogicCalculation_floatingPoint\One_Bit_count.v" Line 46: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\verilog\ALU\LogicCalculation_floatingPoint\XOR.v" Line 41: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\verilog\ALU\LogicCalculation_floatingPoint\Bigger_Number.v" Line 42: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\verilog\ALU\LogicCalculation_floatingPoint\Floating_Point.v" Line 72: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\verilog\ALU\LogicCalculation_floatingPoint\Floating_Point.v" Line 102: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\verilog\ALU\LogicCalculation_floatingPoint\Floating_Point.v" Line 105: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">out</arg>&lt;<arg fmt="%d" index="2">31</arg>:<arg fmt="%d" index="3">31</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">Floating_Point</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">output_result_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">add</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">26 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_result_6&gt; &lt;output_result_7&gt; &lt;output_result_8&gt; &lt;output_result_9&gt; &lt;output_result_10&gt; &lt;output_result_11&gt; &lt;output_result_12&gt; &lt;output_result_13&gt; &lt;output_result_14&gt; &lt;output_result_15&gt; &lt;output_result_16&gt; &lt;output_result_17&gt; &lt;output_result_18&gt; &lt;output_result_19&gt; &lt;output_result_20&gt; &lt;output_result_21&gt; &lt;output_result_22&gt; &lt;output_result_23&gt; &lt;output_result_24&gt; &lt;output_result_25&gt; &lt;output_result_26&gt; &lt;output_result_27&gt; &lt;output_result_28&gt; &lt;output_result_29&gt; &lt;output_result_30&gt; &lt;output_result_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">output_result_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sub</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">27 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_result_5&gt; &lt;output_result_6&gt; &lt;output_result_7&gt; &lt;output_result_8&gt; &lt;output_result_9&gt; &lt;output_result_10&gt; &lt;output_result_11&gt; &lt;output_result_12&gt; &lt;output_result_13&gt; &lt;output_result_14&gt; &lt;output_result_15&gt; &lt;output_result_16&gt; &lt;output_result_17&gt; &lt;output_result_18&gt; &lt;output_result_19&gt; &lt;output_result_20&gt; &lt;output_result_21&gt; &lt;output_result_22&gt; &lt;output_result_23&gt; &lt;output_result_24&gt; &lt;output_result_25&gt; &lt;output_result_26&gt; &lt;output_result_27&gt; &lt;output_result_28&gt; &lt;output_result_29&gt; &lt;output_result_30&gt; &lt;output_result_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">output_result_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">22 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_result_10&gt; &lt;output_result_11&gt; &lt;output_result_12&gt; &lt;output_result_13&gt; &lt;output_result_14&gt; &lt;output_result_15&gt; &lt;output_result_16&gt; &lt;output_result_17&gt; &lt;output_result_18&gt; &lt;output_result_19&gt; &lt;output_result_20&gt; &lt;output_result_21&gt; &lt;output_result_22&gt; &lt;output_result_23&gt; &lt;output_result_24&gt; &lt;output_result_25&gt; &lt;output_result_26&gt; &lt;output_result_27&gt; &lt;output_result_28&gt; &lt;output_result_29&gt; &lt;output_result_30&gt; &lt;output_result_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">output_result_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">oneBitCount</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">28 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_result_4&gt; &lt;output_result_5&gt; &lt;output_result_6&gt; &lt;output_result_7&gt; &lt;output_result_8&gt; &lt;output_result_9&gt; &lt;output_result_10&gt; &lt;output_result_11&gt; &lt;output_result_12&gt; &lt;output_result_13&gt; &lt;output_result_14&gt; &lt;output_result_15&gt; &lt;output_result_16&gt; &lt;output_result_17&gt; &lt;output_result_18&gt; &lt;output_result_19&gt; &lt;output_result_20&gt; &lt;output_result_21&gt; &lt;output_result_22&gt; &lt;output_result_23&gt; &lt;output_result_24&gt; &lt;output_result_25&gt; &lt;output_result_26&gt; &lt;output_result_27&gt; &lt;output_result_28&gt; &lt;output_result_29&gt; &lt;output_result_30&gt; &lt;output_result_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">output_result_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xor_calculator</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">27 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_result_5&gt; &lt;output_result_6&gt; &lt;output_result_7&gt; &lt;output_result_8&gt; &lt;output_result_9&gt; &lt;output_result_10&gt; &lt;output_result_11&gt; &lt;output_result_12&gt; &lt;output_result_13&gt; &lt;output_result_14&gt; &lt;output_result_15&gt; &lt;output_result_16&gt; &lt;output_result_17&gt; &lt;output_result_18&gt; &lt;output_result_19&gt; &lt;output_result_20&gt; &lt;output_result_21&gt; &lt;output_result_22&gt; &lt;output_result_23&gt; &lt;output_result_24&gt; &lt;output_result_25&gt; &lt;output_result_26&gt; &lt;output_result_27&gt; &lt;output_result_28&gt; &lt;output_result_29&gt; &lt;output_result_30&gt; &lt;output_result_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">output_result_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">biggerNumber</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">27 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_result_5&gt; &lt;output_result_6&gt; &lt;output_result_7&gt; &lt;output_result_8&gt; &lt;output_result_9&gt; &lt;output_result_10&gt; &lt;output_result_11&gt; &lt;output_result_12&gt; &lt;output_result_13&gt; &lt;output_result_14&gt; &lt;output_result_15&gt; &lt;output_result_16&gt; &lt;output_result_17&gt; &lt;output_result_18&gt; &lt;output_result_19&gt; &lt;output_result_20&gt; &lt;output_result_21&gt; &lt;output_result_22&gt; &lt;output_result_23&gt; &lt;output_result_24&gt; &lt;output_result_25&gt; &lt;output_result_26&gt; &lt;output_result_27&gt; &lt;output_result_28&gt; &lt;output_result_29&gt; &lt;output_result_30&gt; &lt;output_result_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_17&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_19&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mode_B</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">output_result_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Add</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">26 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_result_6&gt; &lt;output_result_7&gt; &lt;output_result_8&gt; &lt;output_result_9&gt; &lt;output_result_10&gt; &lt;output_result_11&gt; &lt;output_result_12&gt; &lt;output_result_13&gt; &lt;output_result_14&gt; &lt;output_result_15&gt; &lt;output_result_16&gt; &lt;output_result_17&gt; &lt;output_result_18&gt; &lt;output_result_19&gt; &lt;output_result_20&gt; &lt;output_result_21&gt; &lt;output_result_22&gt; &lt;output_result_23&gt; &lt;output_result_24&gt; &lt;output_result_25&gt; &lt;output_result_26&gt; &lt;output_result_27&gt; &lt;output_result_28&gt; &lt;output_result_29&gt; &lt;output_result_30&gt; &lt;output_result_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">output_result_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Sub</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">27 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_result_5&gt; &lt;output_result_6&gt; &lt;output_result_7&gt; &lt;output_result_8&gt; &lt;output_result_9&gt; &lt;output_result_10&gt; &lt;output_result_11&gt; &lt;output_result_12&gt; &lt;output_result_13&gt; &lt;output_result_14&gt; &lt;output_result_15&gt; &lt;output_result_16&gt; &lt;output_result_17&gt; &lt;output_result_18&gt; &lt;output_result_19&gt; &lt;output_result_20&gt; &lt;output_result_21&gt; &lt;output_result_22&gt; &lt;output_result_23&gt; &lt;output_result_24&gt; &lt;output_result_25&gt; &lt;output_result_26&gt; &lt;output_result_27&gt; &lt;output_result_28&gt; &lt;output_result_29&gt; &lt;output_result_30&gt; &lt;output_result_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">output_result_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Mul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">22 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_result_10&gt; &lt;output_result_11&gt; &lt;output_result_12&gt; &lt;output_result_13&gt; &lt;output_result_14&gt; &lt;output_result_15&gt; &lt;output_result_16&gt; &lt;output_result_17&gt; &lt;output_result_18&gt; &lt;output_result_19&gt; &lt;output_result_20&gt; &lt;output_result_21&gt; &lt;output_result_22&gt; &lt;output_result_23&gt; &lt;output_result_24&gt; &lt;output_result_25&gt; &lt;output_result_26&gt; &lt;output_result_27&gt; &lt;output_result_28&gt; &lt;output_result_29&gt; &lt;output_result_30&gt; &lt;output_result_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">output_result_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">One_Bit_count</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">28 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_result_4&gt; &lt;output_result_5&gt; &lt;output_result_6&gt; &lt;output_result_7&gt; &lt;output_result_8&gt; &lt;output_result_9&gt; &lt;output_result_10&gt; &lt;output_result_11&gt; &lt;output_result_12&gt; &lt;output_result_13&gt; &lt;output_result_14&gt; &lt;output_result_15&gt; &lt;output_result_16&gt; &lt;output_result_17&gt; &lt;output_result_18&gt; &lt;output_result_19&gt; &lt;output_result_20&gt; &lt;output_result_21&gt; &lt;output_result_22&gt; &lt;output_result_23&gt; &lt;output_result_24&gt; &lt;output_result_25&gt; &lt;output_result_26&gt; &lt;output_result_27&gt; &lt;output_result_28&gt; &lt;output_result_29&gt; &lt;output_result_30&gt; &lt;output_result_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">output_result_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XOR</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">27 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_result_5&gt; &lt;output_result_6&gt; &lt;output_result_7&gt; &lt;output_result_8&gt; &lt;output_result_9&gt; &lt;output_result_10&gt; &lt;output_result_11&gt; &lt;output_result_12&gt; &lt;output_result_13&gt; &lt;output_result_14&gt; &lt;output_result_15&gt; &lt;output_result_16&gt; &lt;output_result_17&gt; &lt;output_result_18&gt; &lt;output_result_19&gt; &lt;output_result_20&gt; &lt;output_result_21&gt; &lt;output_result_22&gt; &lt;output_result_23&gt; &lt;output_result_24&gt; &lt;output_result_25&gt; &lt;output_result_26&gt; &lt;output_result_27&gt; &lt;output_result_28&gt; &lt;output_result_29&gt; &lt;output_result_30&gt; &lt;output_result_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">output_result_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Bigger_Number</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">27 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_result_5&gt; &lt;output_result_6&gt; &lt;output_result_7&gt; &lt;output_result_8&gt; &lt;output_result_9&gt; &lt;output_result_10&gt; &lt;output_result_11&gt; &lt;output_result_12&gt; &lt;output_result_13&gt; &lt;output_result_14&gt; &lt;output_result_15&gt; &lt;output_result_16&gt; &lt;output_result_17&gt; &lt;output_result_18&gt; &lt;output_result_19&gt; &lt;output_result_20&gt; &lt;output_result_21&gt; &lt;output_result_22&gt; &lt;output_result_23&gt; &lt;output_result_24&gt; &lt;output_result_25&gt; &lt;output_result_26&gt; &lt;output_result_27&gt; &lt;output_result_28&gt; &lt;output_result_29&gt; &lt;output_result_30&gt; &lt;output_result_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_17&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_19&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_0&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">shift_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_17</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_16</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">shift_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Floating_Point</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">add_output_result_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">logic_calculation</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;xor_calculator_output_result_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">out_26</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;out_27&gt; &lt;out_28&gt; &lt;out_29&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">add_output_result_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">logic_calculation</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;sub_output_result_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mantissa_17&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mantissa_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mantissa_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mantissa_16&gt; &lt;mantissa_12&gt; &lt;mantissa_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mantissa_14&gt; &lt;mantissa_10&gt; &lt;mantissa_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mantissa_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mantissa_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mantissa_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mantissa_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mantissa_13&gt; &lt;mantissa_9&gt; &lt;mantissa_5&gt; &lt;mantissa_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mantissa_15&gt; &lt;mantissa_11&gt; &lt;mantissa_7&gt; &lt;mantissa_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mantissa_14&gt; &lt;mantissa_10&gt; &lt;mantissa_6&gt; &lt;mantissa_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mantissa_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Floating_Point</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mantissa_16&gt; &lt;mantissa_12&gt; &lt;mantissa_8&gt; &lt;mantissa_4&gt; &lt;mantissa_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mode_A_equality</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mode_B_equality&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mode_B_out_26</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mode_B_out_25&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mode_A_out_31</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">22 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mode_A_out_30&gt; &lt;mode_A_out_29&gt; &lt;mode_A_out_28&gt; &lt;mode_A_out_27&gt; &lt;mode_A_out_26&gt; &lt;mode_A_out_25&gt; &lt;mode_A_out_24&gt; &lt;mode_A_out_23&gt; &lt;mode_A_out_22&gt; &lt;mode_A_out_21&gt; &lt;mode_A_out_20&gt; &lt;mode_A_out_19&gt; &lt;mode_A_out_18&gt; &lt;mode_A_out_17&gt; &lt;mode_A_out_16&gt; &lt;mode_A_out_15&gt; &lt;mode_A_out_14&gt; &lt;mode_A_out_13&gt; &lt;mode_A_out_12&gt; &lt;mode_A_out_11&gt; &lt;mode_A_out_10&gt; &lt;mode_A_out_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">output_num_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_num_13&gt; &lt;output_num_17&gt; &lt;output_num_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mode_A_sub_output_result_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mode_A_add_output_result_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">output_num_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_num_14&gt; &lt;output_num_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">output_num_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_num_15&gt; &lt;output_num_19&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">output_num_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_num_16&gt; &lt;output_num_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">output_num_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;output_num_26&gt; &lt;output_num_27&gt; &lt;output_num_28&gt; &lt;output_num_29&gt; </arg>
+</msg>
+
+</messages>

@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+logic_calculation instance_name (
+    .clk(clk), 
+    .num1(num1), 
+    .num2(num2), 
+    .operator(operator), 
+    .out(out), 
+    .odd_balance(odd_balance), 
+    .equality(equality)
+    );
+
+

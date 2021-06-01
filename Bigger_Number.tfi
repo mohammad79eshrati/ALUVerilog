@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+Bigger_Number instance_name (
+    .clk(clk), 
+    .number1(number1), 
+    .number2(number2), 
+    .balance(balance), 
+    .output_result(output_result)
+    );
+
+
